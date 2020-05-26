@@ -1,0 +1,12 @@
+Other things
+============
+
+Any inventive uses of CRXN.
+
+=== Chris's IPv6 NETMAP ===
+
+Chris has setup a netmapping of IPv6 addresses to the CRXN IPv4 `10.0.0.0/8` range. What this means is that
+any IPv6 packets sent to the IPv6 addresses in the range he has setup will have their packets transformed into
+IPv4 packets with a source IP of `10.5.0.1` and a destination determined by a mapping of `(IPv6 clear-net) -> (IPv4 crxn)`.
+
+This means CRXN can actually be accessed over the clear-net as well!

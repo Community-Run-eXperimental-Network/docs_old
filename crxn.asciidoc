@@ -1,0 +1,94 @@
+CRXN
+====
+
+== What is CRXN? ==
+
+CRXN stands for *Community Run eXperimental Network* and is a computer network created by Tristan B. Kildaire during April 2020 to experiment with
+networking and have fun building a large scaled network with like-minded people. The network is an IP-only network running, so far, only IPv4.
+
+Other than creating a network to learn about networking it is also a fun way to connect distant network services that would otherwise be impossible
+through NAT or simply cumbersome with NAT in the real world and then again also because of the lack of consumer IPv6 in the real world (or maybe just
+in South Africa.... or Worcester).
+
+However, a sticking point for me is the independance, free of some corporation telling me how to run and setup my
+network is admirable to me atleast and I think many can identify with such a project and their want to join it on the basis that _they_ can use and
+setup their part of the network how they want - *more freedom!*
+
+That is at a surface level what CRXN is, the sections below will get into the more technical details for those who are interested for learning more
+or who want to join the network.
+
+=== Links ===
+
+1. link:allocations.html[Subnet allocations]
+	* Allocations of subnets to people and their uses
+2. link:network.html[Network services]
+	* List of publically available network services on CRXN
+3. link:things.html[Other things]
+	* Any interesting exprimental things being done with or on CRXN
+
+== Getting started ==
+
+The next sections describe the workings of CRXN on a technical level and administrative level.
+
+=== Network specification and administration ===
+
+The address space being used is the `10.0.0.0/8` block which is reserved for private use and provides us with more than enough IP addresses for the network
+we are building.
+
+[WARNING]
+There is not necessarily an end of the world situation if you are already using a portion of this subnet, just make sure the subnets you want to route to
+on CRXN and not your other network are not conflicting in what you want to be able to access on both network or come up with some route switching-out
+system that you personally can make use of to switch between networks.
+
+The assignment of subnets is adminstrated by me, _deavmi_, in the sense that I want to know how the network topology looks at all times with regards to
+allocating subnets out of `10.x.0.0/16` blocks as that is the standard distribution size. However, when further subnetting your own `/16` that is entirely
+up to you as they will be reachable via the transitive nature of the `/16` consuming any smaller subnets within. *However*, it would still *be nice* to know
+how you have further subnetted the network for the sake of building a better view of the network.
+
+The only reason I care about the `/16`'s is due to needing to know what routes to install on my main router and perhaps those who also have backbone routers
+too.
+
+=== Peering ===
+
+This section goes about explaining how to join the network using several different tchnologies out there. Regardless of which method you decide to use
+you need to have a subnet allocated, see the *subnet allocation* section for information regarding how to get a subnet assigned.
+
+As for how you do your peerings, I couldn't care less. As long as I have some interface I can dump a packet on and it ends up at another host or router
+(for further routing) then it is fine - the packets just need to _get to their eventual destination_.
+
+==== Physical peering ====
+
+Haha! That's a good joke, what do I look like to you? A bank? I can't afford to lay cables, wait but I do have a huge antenna in my garage that does 2.4GHz
+so that could be used but I have nobody to peer with where I live so that's a little bit hard.
+
+But if you're in anyone's area and want to peer with them then you are going to have to get a physical-layer link up along with the associated link-layer
+link up and then decide how you're going to do IPv4 ontop of that, as long as it works then it is fine. There are so many ways to setup these types of things.
+
+==== Yggdrasil-based crypto-key routing ====
+
+Yggdrasil is a experimental network that uses a globally-agreed upon spanning tree for moving data on it (IPv6 is just an application of it) and also
+"quick links" if the peer wanting to send to has a direct link. Other than the mentioned IPv6 support that runs ontop of Yggdrasil as an exmaple use
+case to showcase the network technology, another application is the mapping of subnets to the Yggdrasil IDs on the network to transfer IPv6 *or* IPv4
+(which applies here).
+
+This method let's one map a subnet via CIDR notation to an Yggdrasil ID such that any IPv4 packet that is put on the `tun0` (or whatever your Yggdrasil
+tunnel interface is) and which matches the allowed source-IPs CIDR will then pop out the `tun0` interface on the other end (of the before-mapped Yggdrasil
+node matching that Yggdrasil ID). Then from here standard packet acceptance applies, either gets accepted with a matching address on any interface
+or dropped (unless forwarding is enabled and in that case can be further forwarded by any methods that are setup).
+
+This is my favourite method for peering as I know it well because it is very simple and it just works. One can say also that, other than the ease of
+the configuration of Yggdrasil's CKR system, peering your Yggdrasil node with a piblic peer to get free access to this transit network is a big-up
+as compared to using something like Wireguard or OpenVPN which you will have to host or connect to a friend hosting it which requires credentials
+and all.
+
+==== Other methods ====
+
+As I said, if it works, then use it. I am just an Yggdrasil shill because of the benefits mentioned above (which I will reiterate):
+
+1. Free access to a transit network
+2. Easily configured tunneling
+
+=== Subnet assignnment ===
+
+If you want to get assigned a subnet then the easiest way is joining the `#crxn` channel on BonoboNET and asking `deavmi`. From there I can assign you
+a subnet and then I or someone else can sort out peering with you and then we can all update our routing tables.

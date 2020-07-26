@@ -3,7 +3,7 @@ CRXN
 
 == What is CRXN? ==
 
-CRXN stands for *Community Run eXperimental Network* and is a computer network created by Tristan B. Kildaire during April 2020 to experiment with
+CRXN stands for *Community Run eXpansive Network* and is a computer network created by Tristan B. Kildaire during April 2020 to experiment with
 networking and have fun building a large scaled network with like-minded people. The network is an IP-only network running, so far, only IPv4.
 
 Other than creating a network to learn about networking it is also a fun way to connect distant network services that would otherwise be impossible
@@ -20,10 +20,12 @@ or who want to join the network.
 === Links ===
 
 1. link:allocations.html[Subnet allocations]
-	* Allocations of subnets to people and their uses
-2. link:network.html[Network services]
+	* Allocations of subnets to people
+2. link:allocation_specifics.html[Subnet specifics]
+	* What some subnets are used for
+3. link:network.html[Network services]
 	* List of publically available network services on CRXN
-3. link:things.html[Other things]
+4. link:things.html[Other things]
 	* Any interesting exprimental things being done with or on CRXN
 
 == Getting started ==

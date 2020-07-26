@@ -1,0 +1,156 @@
+Subnet specifics
+================
+
+Information regarding the use of the allocated subnets.
+
+
+
+== Deavmi's subnet allocations ==
+
+****
+*IRC:* _deavmi_ on BonoboNET/Freenode
+
+*E-mail:* _deavmi@disroot.org_
+****
+
+=== Subnet (A) ===
+
+****
+This is my network services subnet where all my servers for
+Git, IRC, sshchat, redmine and more live.
+****
+
+*Subnet:* `10.0.0.0`
+
+*Subnet mask/prefix:* `255.255.0.0` or `/16`
+
+*Known devices:*
+
+-------------------------------
+10.0.0.1 is my Pi router
+10.0.0.2 is deavmi.mammoth (services for community)
+10.0.0.3 is deavmi.rivaldont (services for community)
+-------------------------------
+
+=== Subnet (B) ===
+
+****
+This is the subnet for my personal devices.
+****
+
+*Subnet:* `10.1.0.0`
+
+*Subnet mask/prefix:* `255.255.0.0` or `/16`
+
+*Known devices:*
+
+------------------------------------------
+10.1.0.1 is my Pi router
+10.1.0.2 is my Pi personal (web server for homepage)
+10.1.0.3 is my Lockdown.BNET IRC server
+------------------------------------------
+
+=== Subnet (C) ===
+
+****
+This subnet is for personal devices in Stellenbosch (as I go to
+university there) along with some network services I run from there
+too.
+****
+
+*Subnet:* `10.4.0.0`
+
+*Subnet mask/prefix:* `255.255.0.0` or `/16`
+
+*Known devices:*
+
+---------------------------------
+10.4.0.1 is my VM
+---------------------------------
+
+=== Subnet (D) ===
+
+****
+This subnet is for personal devices in Stellenbosch (as I go to
+university there) along with some network services I run from there
+too.
+****
+
+*Subnet:* `10.6.3.0`
+
+*Subnet mask/prefix:* `255.255.255.0` or `/24`
+
+*Known devices:*
+
+-------------------------------
+10.6.3.1 is my Pi router
+10.6.3.2 is my laptop
+10.6.3.3 is my desktop
+-------------------------------
+
+== Skippy's subnet allocations ==
+
+****
+*IRC:* _skippy_ on BonoboNET, _ohmyskippy_ on Freenode
+****
+
+=== Subnet (A) ===
+
+****
+No description
+****
+
+*Subnet:* `10.2.0.0`
+
+*Subnet mask/prefix:* `255.255.0.0` or `/16`
+
+*Known devices:*
+
+---------------
+10.2.0.1 router
+10.2.0.2 laptop
+---------------
+
+== Chris's subnet allocations ==
+
+****
+*IRC:* _chris_ on BonoboNET
+****
+
+=== Subnet (A) ===
+
+****
+No description
+****
+
+*Subnet:* `10.5.0.1`
+
+*Subnet mask/prefix:* `255.255.255.255` or `/32`
+
+*Known devices:*
+
+-------------------------------
+10.5.0.1 Router for IPv6 NETMAP-NAT
+-------------------------------
+
+== Kaotisk's subnet allocations ==
+
+****
+*IRC:* _kaotisk_ on BonoboNET
+****
+
+=== Subnet (A) ===
+
+****
+TODO
+****
+
+*Subnet:* `10.6.0.0`
+
+*Subnet mask/prefix:* `255.255.255.0` or `/24`
+
+*Known devices:*
+
+-------------------------------
+10.6.0.1 Router or Laptop (TODO)
+-------------------------------

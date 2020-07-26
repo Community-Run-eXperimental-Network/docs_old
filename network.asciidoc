@@ -12,7 +12,7 @@ An instance of the KiwiIRC web IRC client is available
 for users wanting to connect to the BonoboNET IRC
 network.
 
-*HTTP Address:* link:http://10.0.0.5:81[]
+*HTTP Address:* link:http://10.0.0.2:81[]
 
 === BonoboNET IRC network ===
 
@@ -23,6 +23,7 @@ So far there are only two BNET nodes available over CRXN:
 
 1. *lockdown.bnet:* `irc://10.1.0.3:6667`
 2. *shitpoes.bnet:* `irc://10.1.0.12:6667`
+3. TODO: Add Kaotisk's node
 
 More information regarding BonoboNET can be found
 link:http://10.1.0.2/projects/bonobonet[here].
@@ -38,13 +39,13 @@ and you end up with a chat program that requires only ssh to be installed!
 
 Deavmi's sshchat server can be accessed via the given parameters:
 
-* *Server address:* `10.0.0.5`
+* *Server address:* `10.0.0.2`
 * *Server port:* `2227`
 
 Use it like so:
 
 ****
-ssh <username>@10.0.0.5 -p 2227
+ssh <username>@10.0.0.2 -p 2227
 ****
 
 Where `<username>` is your screen name.

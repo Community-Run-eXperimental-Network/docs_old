@@ -1,0 +1,48 @@
+Yggdrasil-based peering
+=======================
+
+This document aims to describe how one can setup Yggdrasil-based peering to connect to the CRXN inter-network.
+
+== Getting a peer to peer with ==
+
+First you must find an Yggdrasil user who is on CRXN and also willing to peer with you.
+
+You will need to open up your `/etc/yggdrasil.conf` files on both ends and exchange
+your public keys, specifically the `EncryptionPublicKey` fields.
+
+Then you will both need to scroll down to the `TunnelRouting` section and make sure you
+both have the following configured.
+
+.Person you are peering with's `TunnelRouting` configuration
+[source, json]
+----------------------------
+TunnelRouting: {
+	Enabled: true
+	
+	TODO
+}
+----------------------------
+
+.Your `TunnelRouting` configuration
+[source, json]
+----------------------------
+TunnelRouting: {
+	Enabled: true
+	
+	TODO
+}
+----------------------------
+
+== Addresses ==
+
+We're going to need to add an address to an interface on the machine, it can be any. So that packets
+that get routed onto this machien that *were* destined to it can be accepted rather then being dropped.
+
+*TODO*
+
+== Packet forwarding ==
+
+This only needs to be done if the machine you have set this up on is to be a router on your
+network.
+
+TODO

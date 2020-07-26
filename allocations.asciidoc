@@ -16,6 +16,6 @@ Subnet assignments in `10/8` subnet (CRXN inter-network)
 | *10.6.2.0/24* | yggdrasil | active | Durbanville, Cape Town, South Africa | skippy | ohmyskippy@disroot.org
 | *10.6.3.0/24* | yggdrasil | active | Stellenbosch, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org]
 | *10.6.4.0/24* | yggdrasil | inactive (planned) | Brackenfell, Cape Town, South Africa | reddawn | TODO
-| *10.6.5.0/24* | yggdrasil | inactive (planned) | India | clickme.sh | TODO
+| *10.6.5.0/24* | yggdrasil | active | India | clickme.sh | TODO
 | *10.6.6.0/24* | yggdrasil | inactive (planned) | United States | Zambyte | TODO
 |=======

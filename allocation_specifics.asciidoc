@@ -30,6 +30,9 @@ Git, IRC, sshchat, redmine and more live.
 10.0.0.1 is my Pi router
 10.0.0.2 is deavmi.mammoth (services for community)
 10.0.0.3 is deavmi.rivaldont (services for community)
+10.0.0.7 is deavmi.jaco (development server)
+10.0.0.8 is deavmi.silverfish (development server)
+10.0.0.9 is deavmi.silverfish (development server)
 -------------------------------
 
 === Subnet (B) ===

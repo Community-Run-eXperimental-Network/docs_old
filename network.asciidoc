@@ -45,7 +45,7 @@ Deavmi's sshchat server can be accessed via the given parameters:
 Use it like so:
 
 ****
-ssh <username>@10.0.0.2 -p 2227
+ssh <username>@10.0.0.2 -p 2022
 ****
 
 Where `<username>` is your screen name.

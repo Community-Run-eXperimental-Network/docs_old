@@ -188,7 +188,7 @@ TODO
 == MrWorldWide's subnet allocations ==
 
 ****
-*IRC:* mrworldwide on BonoboNET
+*IRC:* _mrworldwide_ on BonoboNET
 ****
 
 === Subnet (A) ===

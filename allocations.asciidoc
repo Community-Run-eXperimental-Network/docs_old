@@ -10,12 +10,12 @@ Subnet assignments in `10/8` subnet (CRXN inter-network)
 | Subnet | Peerable via | Status | Location | Owner | Contact 
 | *10.0.0.0/16* | physical | active | Worcester, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org]
 | *10.1.0.0/16* | yggdrasil, physical | active | Worcester, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org] 
-| *10.4.0.0/16* | N/A | to be removed, active | Worcester, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org]
-| *10.5.0.1/32* | yggdrasil | active | Germany | chris | TODO
+| *10.4.0.0/16* | N/A | inactive (to be removed) | Worcester, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org]
+| *10.5.0.1/32* | yggdrasil | active | Germany | chris | N/A
 | *10.6.1.0/24* | yggdrasil | active | Greece | kaotisk | kaotisk@arching-kaos.tk
-| *10.6.2.0/24* | yggdrasil | active | Durbanville, Cape Town, South Africa | skippy | ohmyskippy@disroot.org
+| *10.6.2.0/24* | yggdrasil | active | Durbanville, Cape Town, South Africa | skippy | link:mailto:ohmyskippy@disroot.org[ohmyskippy@disroot.org]
 | *10.6.3.0/24* | yggdrasil | active | Stellenbosch, South Africa | deavmi | link:mailto:deavmi@disroot.org[deavmi@disroot.org]
-| *10.6.4.0/24* | yggdrasil | inactive (planned) | Brackenfell, Cape Town, South Africa | reddawn | TODO
-| *10.6.5.0/24* | yggdrasil | active | India | clickme.sh | TODO
-| *10.6.6.0/24* | yggdrasil | inactive (planned) | United States | Zambyte | TODO
+| *10.6.4.0/24* | yggdrasil | active | Brackenfell, Cape Town, South Africa | reddawn | N/A
+| *10.6.5.0/24* | yggdrasil | active | India | clickme.sh | N/A
+| *10.6.6.0/24* | yggdrasil | inactive (planned) | United States | Zambyte | N/A
 |=======

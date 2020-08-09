@@ -26,7 +26,7 @@ So far there are only two BNET nodes available over CRXN:
 3. TODO: Add Kaotisk's node
 
 More information regarding BonoboNET can be found
-link:http://10.1.0.2/projects/bonobonet[here].
+link:/projects/bonobonet[here].
 
 == SSHChat ==
 

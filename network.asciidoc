@@ -40,7 +40,7 @@ and you end up with a chat program that requires only ssh to be installed!
 Deavmi's sshchat server can be accessed via the given parameters:
 
 * *Server address:* `10.0.0.2`
-* *Server port:* `2227`
+* *Server port:* `2022`
 
 Use it like so:
 

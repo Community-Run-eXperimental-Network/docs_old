@@ -184,3 +184,25 @@ TODO
 10.6.4.1 Router
 10.6.4.3 ogbeast.domain
 -------------------------------
+
+== MrWorldWide's subnet allocations ==
+
+****
+*IRC:* mrworldwide on BonoboNET
+****
+
+=== Subnet (A) ===
+
+****
+TODO
+****
+
+*Subnet:* `10.6.5.0`
+
+*Subnet mask/prefix:* `255.255.255.0` or `/24`
+
+*Known devices:*
+
+-------------------------------
+10.6.5.1 Router
+-------------------------------

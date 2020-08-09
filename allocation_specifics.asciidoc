@@ -126,6 +126,8 @@ No description
 This subnet is used for netmapping
 IPv6 address space (in the public range)
 to all CRXN hosts.
+
+See it on the link:things.html[other things] page.
 ****
 
 *Subnet:* `10.5.0.1`

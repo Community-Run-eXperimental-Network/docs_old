@@ -157,3 +157,26 @@ TODO
 -------------------------------
 10.6.0.1 Router or Laptop (TODO)
 -------------------------------
+
+== Gustav's subnet allocations ==
+
+****
+*IRC:* _OGustav_ on BonoboNET
+****
+
+=== Subnet (A) ===
+
+****
+TODO
+****
+
+*Subnet:* `10.6.4.0`
+
+*Subnet mask/prefix:* `255.255.255.0` or `/24`
+
+*Known devices:*
+
+-------------------------------
+10.6.4.1 Router
+10.6.4.3 ogbeast.domain
+-------------------------------

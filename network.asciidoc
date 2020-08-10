@@ -12,7 +12,7 @@ An instance of the KiwiIRC web IRC client is available
 for users wanting to connect to the BonoboNET IRC
 network.
 
-*HTTP Address:* link:http://10.0.0.2:81[]
+*HTTP Address:* link:http://10.0.0.2:8000[]
 
 === BonoboNET IRC network ===
 

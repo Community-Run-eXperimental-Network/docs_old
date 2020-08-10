@@ -23,7 +23,6 @@ So far there are only two BNET nodes available over CRXN:
 
 1. *lockdown.bnet:* `irc://10.1.0.3:6667`
 2. *shitpoes.bnet:* `irc://10.1.0.12:6667`
-3. TODO: Add Kaotisk's node
 
 More information regarding BonoboNET can be found
 link:/projects/bonobonet[here].
